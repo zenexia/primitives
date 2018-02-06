@@ -1,0 +1,25 @@
+{
+    "name": "zenex/primitives",
+    "description": "Primitive data types collection for easy DDD implementation",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad",
+            "email": "ali@zenex.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Zenex\\": "./",
+            "Zenex\\Primitives\\": "./Primitives"
+        }
+    }
+}
